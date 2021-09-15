@@ -81,6 +81,7 @@
     <div class="sm:mb-0 self-center">
         <a href="#" class="text-md font-semibold no-underline text-green-200 hover:text-green-600 ml-2 px-1">Se
             connecter</a>
+        <a href="#" class="text-md font-semibold no-underline text-green-200 hover:text-green-600 ml-2 px-1">S'inscrire</a>
     </div>
     <!--
         <div class="sm:mb-0 self-center">
