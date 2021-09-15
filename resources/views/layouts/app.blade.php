@@ -8,7 +8,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="{{asset('css/app.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('css/app.css')}}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
     <!-- Styles -->
@@ -16,7 +16,7 @@
     <style>
         body {
             font-family: 'Nunito', sans-serif;
-            background-image: url({{asset('img/background.png')}});
+            background-image: url({{secure_asset('img/background.png')}});
             background-size: cover;
         }
 

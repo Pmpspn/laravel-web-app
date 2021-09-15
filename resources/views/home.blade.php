@@ -9,11 +9,11 @@
         </div>
 
         <div class="justify-center place-self-center flex w-1/4 ml-32">
-            <img class="animate-ping"alt="gui" width="30%" src="{{asset('img/viasges/gui-removebg-preview.png')}}">
-            <img class="anima-p" alt="ron" width="30%" src="{{asset('img/viasges/ron-removebg-preview.png')}}">
-            <img class="animate-spin" alt="ste" width="30%" src="{{asset('img/viasges/ste-removebg-preview.png')}}">
-            <img class="animate-bounce" alt="ilo" width="30%" src="{{asset('img/viasges/ilo-removebg-preview.png')}}">
-            <img class="anima-b" alt="lud" width="30%" src="{{asset('img/viasges/lud-removebg-preview.png')}}">
+            <img class="animate-ping"alt="gui" width="30%" src="{{secure_asset('img/viasges/gui-removebg-preview.png')}}">
+            <img class="anima-p" alt="ron" width="30%" src="{{secure_asset('img/viasges/ron-removebg-preview.png')}}">
+            <img class="animate-spin" alt="ste" width="30%" src="{{secure_asset('img/viasges/ste-removebg-preview.png')}}">
+            <img class="animate-bounce" alt="ilo" width="30%" src="{{secure_asset('img/viasges/ilo-removebg-preview.png')}}">
+            <img class="anima-b" alt="lud" width="30%" src="{{secure_asset('img/viasges/lud-removebg-preview.png')}}">
         </div>
     </div>
 @stop
