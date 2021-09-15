@@ -9987,6 +9987,12 @@ video {
   }
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -10010,6 +10016,11 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.animate-spin-slow {
+  -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite;
 }
 
 .cursor-auto {
@@ -31394,6 +31405,10 @@ video {
   --tw-drop-shadow: drop-shadow(0 0 #0000);
 }
 
+.drop-shadow-white {
+  --tw-drop-shadow: drop-shadow(0 10px 10px rgba(255, 255, 255, 0.45));
+}
+
 .grayscale-0 {
   --tw-grayscale: grayscale(0);
 }
@@ -41249,6 +41264,11 @@ video {
   .sm\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .sm\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
   }
 
   .sm\:cursor-auto {
@@ -62620,6 +62640,10 @@ video {
     --tw-drop-shadow: drop-shadow(0 0 #0000);
   }
 
+  .sm\:drop-shadow-white {
+    --tw-drop-shadow: drop-shadow(0 10px 10px rgba(255, 255, 255, 0.45));
+  }
+
   .sm\:grayscale-0 {
     --tw-grayscale: grayscale(0);
   }
@@ -72476,6 +72500,11 @@ video {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
   }
 
   .md\:cursor-auto {
@@ -93847,6 +93876,10 @@ video {
     --tw-drop-shadow: drop-shadow(0 0 #0000);
   }
 
+  .md\:drop-shadow-white {
+    --tw-drop-shadow: drop-shadow(0 10px 10px rgba(255, 255, 255, 0.45));
+  }
+
   .md\:grayscale-0 {
     --tw-grayscale: grayscale(0);
   }
@@ -103703,6 +103736,11 @@ video {
   .lg\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .lg\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
   }
 
   .lg\:cursor-auto {
@@ -125074,6 +125112,10 @@ video {
     --tw-drop-shadow: drop-shadow(0 0 #0000);
   }
 
+  .lg\:drop-shadow-white {
+    --tw-drop-shadow: drop-shadow(0 10px 10px rgba(255, 255, 255, 0.45));
+  }
+
   .lg\:grayscale-0 {
     --tw-grayscale: grayscale(0);
   }
@@ -134930,6 +134972,11 @@ video {
   .xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
   }
 
   .xl\:cursor-auto {
@@ -156301,6 +156348,10 @@ video {
     --tw-drop-shadow: drop-shadow(0 0 #0000);
   }
 
+  .xl\:drop-shadow-white {
+    --tw-drop-shadow: drop-shadow(0 10px 10px rgba(255, 255, 255, 0.45));
+  }
+
   .xl\:grayscale-0 {
     --tw-grayscale: grayscale(0);
   }
@@ -166157,6 +166208,11 @@ video {
   .\32xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
   }
 
   .\32xl\:cursor-auto {
@@ -187526,6 +187582,10 @@ video {
 
   .\32xl\:drop-shadow-none {
     --tw-drop-shadow: drop-shadow(0 0 #0000);
+  }
+
+  .\32xl\:drop-shadow-white {
+    --tw-drop-shadow: drop-shadow(0 10px 10px rgba(255, 255, 255, 0.45));
   }
 
   .\32xl\:grayscale-0 {
